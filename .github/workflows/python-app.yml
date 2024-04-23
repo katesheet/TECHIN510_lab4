@@ -1,9 +1,9 @@
 name: run book_scraper.py
 
 on: 
-  [workflow_dispatch]
-  # schedule:
-  #   - cron: '0 0 * * *' # At everyday at 00:00
+  # [workflow_dispatch]
+  schedule:
+    - cron: '0 0 * * *' # At everyday at 00:00
 
 jobs:
   build:
